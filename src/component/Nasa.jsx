@@ -128,7 +128,7 @@ useEffect(pageControl, [page]);
             <br />
 
           
-          <div className='total-media' style={{columns:4,columnGap:0,padding: '5px'}} >
+          <div className='total-media'  >
 
             <MediaCreator items={data} type={mediaType} />
             
