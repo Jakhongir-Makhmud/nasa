@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchForm {
+  margin: 2rem auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.486);
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.searchForm .filterBtn {
+  padding: 0 5px 5px 5px;
+  background: none;
+  position: relative;
+  top: -4px;
+  border: none;
+  left: -2rem;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 24px;
+}
+
+.searchForm .filterBtn .bi-sliders {
+  color: #000;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.searchForm .nameSearch {
+  width: 260px;
+  height: 30px;
+}
+
+.searchForm .checkbox {
+  padding-top: 7px;
+}
+
+.searchForm .checkbox input {
+  margin-right: 10px;
+}
+
+.searchForm .checkbox label {
+  margin-right: 10px;
+}
+
+.searchForm .checkbox .imageCheck {
+  display: inline-block;
+}
+
+.searchForm .checkbox .videoCheck {
+  display: inline-block;
+}
+
+.searchForm .submitBtn {
+  border-radius: 3px;
+  padding: 3px 30px;
+  margin: 5px 5px;
+  border: 1px solid;
+  color: #000;
+}
+
+.searchForm .submitBtn:hover {
+  background-color: #4995ff;
+  color: #fff;
+  border: 1px solid;
+}
+
+.searchForm .moreSearchOptions {
+  text-align: center;
+}
+
+.searchForm .moreSearchOptions span {
+  display: block;
+}
+
+.searchForm .moreSearchOptions input {
+  width: auto;
+  color: #000;
+}
+
+.searchForm .moreSearchOptions .yearContainer {
+  width: 200px;
+}
+
+.total-media {
+  -webkit-columns: 4;
+          columns: 4;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+  margin: 0 10%;
+}
+
+.media {
+  padding: 5px;
+  width: 100%;
+}
+
+.media .playSign {
+  position: absolute;
+  font-size: 8rem;
+  top: 15%;
+  left: 30%;
+}
+
+.media img {
+  width: 100%;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pagination .currentPage {
+  background-color: #51a4c0;
+  color: #000;
+}
+
+.pagination button {
+  display: inline-block;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 30px;
+  color: grey;
+  margin: .5rem .5rem 1rem .5rem;
+  -webkit-transition: ease .5s;
+  transition: ease .5s;
+  font-weight: 600;
+  border: none;
+}
+
+.pagination button:hover {
+  background-color: #5ca4cd;
+  color: #1f1824;
+  font-weight: 800;
+}
+
+.image img {
+  height: auto;
+}
+
+.video video {
+  height: 95vh;
+}
+
+@media screen and (max-width: 575px) {
+  .searchForm {
+    width: 90vw;
+  }
+  .searchForm .nameSearch {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .searchForm {
+    width: 90vw;
+  }
+  .searchForm .nameSearch {
+    width: 220px;
+  }
+  .media img {
+    width: auto;
+  }
+  .media .moreSearchOptions {
+    position: relative;
+    right: 2rem;
+  }
+  .pagination button {
+    min-width: 30px;
+    min-height: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) and (max-width: 420px) {
+  .searchForm {
+    width: 90vw;
+  }
+  .searchForm .nameSearch {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 470px) and (max-width: 380px) {
+  .searchForm {
+    width: 90vw;
+  }
+  .searchForm .nameSearch {
+    width: 180px;
+  }
+  .searchForm .checkbox .imageChec {
+    display: block;
+  }
+  .searchForm .checkbox .videoCheck {
+    display: block;
+  }
+  .yearContainer {
+    width: 200px;
+    position: relative;
+    left: -1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
